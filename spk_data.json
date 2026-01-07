@@ -1,0 +1,159 @@
+{
+  "criteria": [
+    {
+      "code": "K1",
+      "name": "Jenis kelas retinoid",
+      "attr": "cost"
+    },
+    {
+      "code": "K2",
+      "name": "emollient",
+      "attr": "benefit"
+    },
+    {
+      "code": "K3",
+      "name": "Dosis bahan aktif",
+      "attr": "benefit"
+    },
+    {
+      "code": "K4",
+      "name": "Komposisi senyawa",
+      "attr": "benefit"
+    },
+    {
+      "code": "K5",
+      "name": "Teknik formulasi",
+      "attr": "cost"
+    }
+  ],
+  "data": [
+    {
+      "Alternatif": "Somethinc 1% encapsulation retinol) ",
+      "K1": 3.0,
+      "K2": 0.0,
+      "K3": 0.0,
+      "K4": 0.0,
+      "K5": 0.0
+    },
+    {
+      "Alternatif": "Vitacid 0.05% Cream",
+      "K1": 0.0,
+      "K2": 0.0,
+      "K3": 0.0,
+      "K4": 0.0,
+      "K5": 0.0
+    },
+    {
+      "Alternatif": "Av\u00e8ne RetrinAL 0.05",
+      "K1": 0.0,
+      "K2": 0.0,
+      "K3": 0.0,
+      "K4": 0.0,
+      "K5": 0.0
+    },
+    {
+      "Alternatif": "Klued 0.5% retinol",
+      "K1": 0.0,
+      "K2": 0.0,
+      "K3": 0.0,
+      "K4": 0.0,
+      "K5": 0.0
+    },
+    {
+      "Alternatif": "La-rosche posay adapalene 0.1% gel ",
+      "K1": 0.0,
+      "K2": 0.0,
+      "K3": 0.0,
+      "K4": 0.0,
+      "K5": 0.0
+    }
+  ],
+  "topsis": [
+    {
+      "Alternatif": "Av\u00e8ne RetrinAL 0.05",
+      "D_Plus": 0.21757131728816848,
+      "D_Minus": 0.4033880185269813,
+      "V_TOPSIS": 0.6496206679901885,
+      "Rank_TOPSIS": 1
+    },
+    {
+      "Alternatif": "Vitacid 0.05% Cream",
+      "D_Plus": 0.3100868364730211,
+      "D_Minus": 0.3374986302843124,
+      "V_TOPSIS": 0.5211646147253356,
+      "Rank_TOPSIS": 2
+    },
+    {
+      "Alternatif": "Klued 0.5% retinol",
+      "D_Plus": 0.3100868364730211,
+      "D_Minus": 0.3374986302843124,
+      "V_TOPSIS": 0.5211646147253356,
+      "Rank_TOPSIS": 3
+    },
+    {
+      "Alternatif": "La-rosche posay adapalene 0.1% gel ",
+      "D_Plus": 0.39598577465334617,
+      "D_Minus": 0.23076923076923075,
+      "V_TOPSIS": 0.36819686922745715,
+      "Rank_TOPSIS": 4
+    },
+    {
+      "Alternatif": "Somethinc 1% encapsulation retinol) ",
+      "D_Plus": 0.41602514716892186,
+      "D_Minus": 0.1923076923076923,
+      "V_TOPSIS": 0.31612249056478087,
+      "Rank_TOPSIS": 5
+    }
+  ],
+  "pm": [
+    {
+      "Alternatif": "La-rosche posay adapalene 0.1% gel ",
+      "Total_PM": 3.125,
+      "Rank_PM": 1
+    },
+    {
+      "Alternatif": "Somethinc 1% encapsulation retinol) ",
+      "Total_PM": 3.0,
+      "Rank_PM": 2
+    },
+    {
+      "Alternatif": "Av\u00e8ne RetrinAL 0.05",
+      "Total_PM": 2.916666666666667,
+      "Rank_PM": 3
+    },
+    {
+      "Alternatif": "Klued 0.5% retinol",
+      "Total_PM": 2.916666666666667,
+      "Rank_PM": 4
+    },
+    {
+      "Alternatif": "Vitacid 0.05% Cream",
+      "Total_PM": 2.8333333333333335,
+      "Rank_PM": 5
+    }
+  ],
+  "topsis_settings": {
+    "weight_K1": 0.3,
+    "attr_K1": "cost",
+    "weight_K2": 0.2,
+    "attr_K2": "benefit",
+    "weight_K3": 0.35,
+    "attr_K3": "benefit",
+    "weight_K4": 0.2,
+    "attr_K4": "benefit",
+    "weight_K5": 0.25,
+    "attr_K5": "cost"
+  },
+  "pm_settings": {
+    "target_K1": 3.0,
+    "weight_K1": 0.6,
+    "target_K2": 3.0,
+    "weight_K2": 0.4,
+    "target_K3": 3.0,
+    "weight_K3": 0.4,
+    "target_K4": 3.0,
+    "weight_K4": 0.4,
+    "target_K5": 3.0,
+    "weight_K5": 0.6
+  }
+}

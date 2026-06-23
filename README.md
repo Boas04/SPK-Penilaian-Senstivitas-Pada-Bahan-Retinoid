@@ -24,7 +24,7 @@ Pilih salah satu cara di bawah.
 ### 1) Cepat (tanpa virtualenv)
 ```powershell
 # Masuk ke folder proyek
-cd C:\Users\abner\Documents\SPK
+cd C:\Users\user\Documents\SPK
 
 # Install dependensi minimal
 py -3.8 -m pip install --upgrade pip
@@ -37,7 +37,7 @@ Akses: http://localhost:8000
 
 ### 2) Virtualenv (disarankan)
 ```powershell
-cd C:\Users\abner\Documents\SPK
+cd C:\Users\user\Documents\SPK
 py -3.8 -m venv .venv
 .\.venv\Scripts\activate
 python -m pip install --upgrade pip
@@ -47,7 +47,7 @@ python app.py
 
 ### 3) Conda (alternatif)
 ```powershell
-cd C:\Users\abner\Documents\SPK
+cd C:\Users\user\Documents\SPK
 # Buat environment lokal di folder .conda (sesuai task yang tersedia)
 C:\Users\miniforge3\Scripts\conda.exe create -p .\.conda python=3.8 -y
 C:\Users\miniforge3\Scripts\conda.exe run -p .\.conda pip install -r requirements.txt
